@@ -29,7 +29,7 @@ const ImageModal: React.FC<Props> = ({
         overlayClassName={css.overlay}
         className={css.modal}
       >
-        <img className={css.img} src={url} alt={alt} height={600} />
+        <img className={css.img} src={url} alt={alt} />
 
         <p className={css.title}>
           Descripsion: <span className={css.text}>{alt}</span>

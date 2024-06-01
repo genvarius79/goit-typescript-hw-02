@@ -1,9 +1,11 @@
 .modal {
+  height: auto;
+  width: auto;
   position: absolute;
   top: 50%;
-  left: 30%;
-  transform: translate(-20%, -50%);
-  overflow-y: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
   outline: none;
 }
 .overlay {
@@ -25,4 +27,28 @@
 .text {
   color: #d1c2c2;
   font-weight: 400;
+}
+.img {
+  width: 275px;
+  height: auto;
+}
+
+@media screen and (min-width: 375px) {
+  .img {
+    width: 335px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* ++++++++++++ TABLET STYLES +++++++++++++++++++ */
+
+  .img {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  /* ++++++++++++ DESCTOP STYLES +++++++++++++++++++ */
+
+  .img {
+    width: 850px;
+  }
 }

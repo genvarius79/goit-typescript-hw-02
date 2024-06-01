@@ -16,7 +16,7 @@
 .input {
   outline: none;
   box-shadow: none;
-  width: 300px;
+  width: 200px;
   height: 30px;
   padding: 0 0 0 10px;
 }
@@ -27,4 +27,16 @@
   box-shadow: none;
   border: none;
   background-color: #ffffff;
+}
+
+@media screen and (min-width: 375px) {
+  .input {
+    width: 240px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* ++++++++++++ TABLET STYLES +++++++++++++++++++ */
+  .input {
+    width: 300px;
+  }
 }
