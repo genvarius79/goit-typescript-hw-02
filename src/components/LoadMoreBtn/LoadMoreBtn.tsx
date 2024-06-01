@@ -6,7 +6,7 @@ interface Props {
 }
 
 const LoadMoreBtn: React.FC<Props> = ({ LoadMore }) => {
-  const handleClick = () => {
+  const handleClick = (): void => {
     LoadMore();
   };
 

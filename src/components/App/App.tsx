@@ -32,7 +32,7 @@ const App: React.FC = () => {
     setPage(page + 1);
   };
 
-  const handleOpenModal = (item: APIresults) => {
+  const handleOpenModal = (item: APIresults): void => {
     setShowModal(true);
     setModalUrl(item.urls.regular);
     setModalAlt(item.alt_description);
