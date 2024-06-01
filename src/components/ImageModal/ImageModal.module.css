@@ -1,0 +1,28 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-20%, -50%);
+  overflow-y: auto;
+  outline: none;
+}
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.75);
+  transition: opacity 300ms;
+}
+.title {
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.text {
+  color: #d1c2c2;
+  font-weight: 400;
+}

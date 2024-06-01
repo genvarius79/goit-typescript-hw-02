@@ -1,0 +1,18 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  cursor: zoom-in;
+}
+
+.title {
+  margin-top: 5px;
+  text-wrap: wrap;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+}

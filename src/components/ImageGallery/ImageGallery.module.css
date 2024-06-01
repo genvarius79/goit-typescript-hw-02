@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  width: calc((100%) / 5);
+  height: 320px;
+}
+.item:hover {
+  box-shadow: 0 0 8px 8px #b8c7db;
+}
